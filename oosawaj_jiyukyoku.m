@@ -266,6 +266,12 @@ reb_4=sin(2*pi*t4*f*2^(-1+(-10/12))).*exp(-t4);
 reb_2=sin(2*pi*t2*f*2^(-1+(-10/12))).*exp(-t2);
 reb_h2=sin(2*pi*th2*f*2^(-1+(-10/12))).*exp(-th2);
 
+mifb_16=sin(2*pi*t16*f*2^(-1+(-9/12))).*exp(-t16);
+mifb_8=sin(2*pi*t8*f*2^(-1+(-9/12))).*exp(-t8);
+mifb_4=sin(2*pi*t4*f*2^(-1+(-9/12))).*exp(-t4);
+mifb_2=sin(2*pi*t2*f*2^(-1+(-9/12))).*exp(-t2);
+mifb_h2=sin(2*pi*th2*f*2^(-1+(-9/12))).*exp(-th2);
+
 mib_16=sin(2*pi*t16*f*2^(-1+(-8/12))).*exp(-t16);
 mib_8=sin(2*pi*t8*f*2^(-1+(-8/12))).*exp(-t8);
 mib_4=sin(2*pi*t4*f*2^(-1+(-8/12))).*exp(-t4);
@@ -313,6 +319,12 @@ rea_4=sin(2*pi*t4*f*2^(-10/12)).*exp(-t4);
 rea_2=sin(2*pi*t2*f*2^(-10/12)).*exp(-t2);
 rea_h2=sin(2*pi*th2*f*2^(-10/12)).*exp(-th2);
 
+mifa_16=sin(2*pi*t16*f*2^(-9/12)).*exp(-t16);
+mifa_8=sin(2*pi*t8*f*2^(-9/12)).*exp(-t8);
+mifa_4=sin(2*pi*t4*f*2^(-9/12)).*exp(-t4);
+mifa_2=sin(2*pi*t2*f*2^(-9/12)).*exp(-t2);
+mifa_h2=sin(2*pi*th2*f*2^(-9/12)).*exp(-th2);
+
 mia_16=sin(2*pi*t16*f*2^(-8/12)).*exp(-t16);
 mia_8=sin(2*pi*t8*f*2^(-8/12)).*exp(-t8);
 mia_4=sin(2*pi*t4*f*2^(-8/12)).*exp(-t4);
@@ -342,6 +354,7 @@ sifa_16=sin(2*pi*t16*f*2^(-2/12)).*exp(-t16);
 sifa_8=sin(2*pi*t8*f*2^(-2/12)).*exp(-t8);
 sifa_4=sin(2*pi*t4*f*2^(-2/12)).*exp(-t4);
 sifa_2=sin(2*pi*t2*f*2^(-2/12)).*exp(-t2);
+sifa_f2=sin(2*pi*th2*f*2^(-2/12)).*exp(-th2);
 
 sia_16=sin(2*pi*t16*f*2^(-1/12)).*exp(-t16);
 sia_8=sin(2*pi*t8*f*2^(-1/12)).*exp(-t8);
@@ -360,6 +373,12 @@ re_8=sin(2*pi*t8*f*2^(2/12)).*exp(-t8);
 re_4=sin(2*pi*t4*f*2^(2/12)).*exp(-t4);
 re_2=sin(2*pi*t2*f*2^(2/12)).*exp(-t2);
 re_h2=sin(2*pi*th2*f*2^(2/12)).*exp(-th2);
+
+mif_16=sin(2*pi*t16*f*2^(3/12)).*exp(-t16);
+mif_8=sin(2*pi*t8*f*2^(3/12)).*exp(-t8);
+mif_4=sin(2*pi*t4*f*2^(3/12)).*exp(-t4);
+mif_2=sin(2*pi*t2*f*2^(3/12)).*exp(-t2);
+mif_h2=sin(2*pi*th2*f*2^(3/12)).*exp(-th2);
 
 mi_16=sin(2*pi*t16*f*2^(4/12)).*exp(-t16);
 mi_8=sin(2*pi*t8*f*2^(4/12)).*exp(-t8);
@@ -389,6 +408,7 @@ sif_16=sin(2*pi*t16*f*2^(10/12)).*exp(-t16);
 sif_8=sin(2*pi*t8*f*2^(10/12)).*exp(-t8);
 sif_4=sin(2*pi*t4*f*2^(10/12)).*exp(-t4);
 sif_2=sin(2*pi*t2*f*2^(10/12)).*exp(-t2);
+sif_h2=sin(2*pi*th2*f*2^(10/12)).*exp(-th2);
 
 si_16=sin(2*pi*t16*f*2^(11/12)).*exp(-t16);
 si_8=sin(2*pi*t8*f*2^(11/12)).*exp(-t8);
@@ -405,6 +425,12 @@ re2_8=sin(2*pi*t8*f*2^(1+(2/12))).*exp(-t8);
 re2_4=sin(2*pi*t4*f*2^(1+(2/12))).*exp(-t4);
 re2_2=sin(2*pi*t2*f*2^(1+(2/12))).*exp(-t2);
 re2_49=sin(2*pi*t49*f*2^(1+(2/12))).*exp(-t49);
+
+mif2_16=sin(2*pi*t16*f*2^(1+(3/12))).*exp(-t16);
+mif2_8=sin(2*pi*t8*f*2^(1+(3/12))).*exp(-t8);
+mif2_4=sin(2*pi*t4*f*2^(1+(3/12))).*exp(-t4);
+mif2_2=sin(2*pi*t2*f*2^(1+(3/12))).*exp(-t2);
+mif2_h2=sin(2*pi*th2*f*2^(1+(3/12))).*exp(-th2);
 
 mi2_16=sin(2*pi*t16*f*2^(1+(4/12))).*exp(-t16);
 mi2_8=sin(2*pi*t8*f*2^(1+(4/12))).*exp(-t8);
@@ -454,10 +480,38 @@ melo_left2=[melo_leftup2+melo_leftmi2+melo_leftdo2]./max(abs(melo_rightup2+melo_
 
 main_melo2=[melo_right2+melo_left2]./max(abs(melo_right2+melo_left2))*0.99;
 
+melo_rightup3=[sif_16,do2_16,re2_8,do2_8,sif_16,ra_16,so_2,so2_8,so_8,re2_8,so2_8,fa2_8,mi2_16,re2_16,mi2_8,re2_16,do2_16,so2_8,so2_8,re2_8,so2_8,fa2_8,mi2_16,re2_16,mi2_8,re2_16,do2_16];
+melo_rightmi3=[z1,rea_8,z8,z4,z2,re2_8,re2_8,z4,z2];
+melo_rightdo3=[sif_16,do_16,re_8,do_8,sif_16,ra_16,so_2,so_8,soa_8,re_8,so_8,fa_8,mi_16,re_16,mi_8,re_16,do_16,so_8,so_8,re_8,so_8,fa_8,mi_16,re_16,mi_8,re_16,do_16];
+melo_right3=[melo_rightup3+melo_rightmi3+melo_rightdo3]./max(abs(melo_rightup3+melo_rightmi3+melo_rightdo3))*0.99;
 
+melo_leftup3=[mifa_4,faa_4,z8,soa_8,soa_4,soa_8,sob_8,rea_8,soa_8,faa_8,mia_16,rea_16,mia_8,rea_16,doa_16,soa_8,soa_8,rea_8,soa_8,faa_8,mia_16,rea_16,mia_8,rea_16,doa_16];
+melo_leftmi3=[sifb_4,doa_4,z8,rea_8,rea_4,rea_8,z8,z4,z2,re2_8,re2_8,z4,z2];
+melo_leftdo3=[mifb_4,fab_4,z8,sob_8,sob_4,sob_8,z8,z4,z2,sob_8,sob_8,z4,z2];
+melo_left3=[melo_leftup3+melo_leftmi3+melo_leftdo3]./max(abs(melo_rightup3+melo_rightmi3+melo_rightdo3))*0.99;
 
-playblocking(audioplayer(main_melo1,fs));
-playblocking(audioplayer(main_melo2,fs))
+main_melo3=[melo_right3+melo_left3]./max(abs(melo_right3+melo_left3))*0.99;
+
+melo_rightup4=[so2_8,so2_8,re2_8,so2_8,fa2_8,mi2_16,re2_16,mi2_8,re2_16,do2_16,sif_16,do2_16,re2_8,do2_8,sif_16,ra_16,so_2,so_h2,ra_8,sif_8];
+melo_rightmi4=[re2_8,re2_8,z4,z2,z1,mif_h2,mif_8,so_8];
+melo_rightdo4=[so_8,so_8,re_8,so_8,fa_8,mi_16,re_16,mi_8,re_16,do_16,sif_16,do_16,re_8,do_8,sif_16,ra_16,so_2,sifa_f2,sifa_8,mif_8];
+melo_right4=[melo_rightup4+melo_rightmi4+melo_rightdo4]./max(abs(melo_rightup4+melo_rightmi4+melo_rightdo4))*0.99;
+
+melo_leftup4=[soa_8,soa_8,rea_8,soa_8,faa_8,mia_16,rea_16,mia_8,rea_16,doa_16,mifa_4,faa_4,z8,soa_8,soa_4,doa_4,doa_8,doa_4,doa_8,doa_8,doa_8];
+melo_leftmi4=[re2_8,re2_8,z4,z2,sifb_4,doa_4,z8,rea_8,rea_4,sob_4,sob_8,sob_4,sob_8,sob_8,sob_8];
+melo_leftdo4=[sob_8,sob_8,z4,z2,mifb_4,fab_4,z8,sob_8,sob_4,dob_4,dob_8,dob_4,dob_8,dob_8,dob_8];
+melo_left4=[melo_leftup4+melo_leftmi4+melo_leftdo4]./max(abs(melo_rightup4+melo_rightmi4+melo_rightdo4))*0.99;
+
+main_melo4=[melo_right4+melo_left4]./max(abs(melo_right4+melo_left4))*0.99;
+
+% playblocking(audioplayer(main_melo1,fs));
+% playblocking(audioplayer(main_melo2,fs));
+% playblocking(audioplayer(main_melo3,fs));
+% playblocking(audioplayer(main_melo4,fs));
+
+melody=[main_melo1,main_melo2,main_melo3,main_melo4];
+
+playblocking(audioplayer(melody,fs));
 
 return
 
